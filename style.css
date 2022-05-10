@@ -1,0 +1,68 @@
+/* GENERAL STYLING */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Verdena", sans-serif;
+  font-size: 20px;
+  color: #6a1cc3;
+}
+
+header {
+  background-color: #6a1cc3;
+  color: #fbfbfb;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.title-searchbar {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.title-students {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.student-name {
+  font-family: Source Sans Pro;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:link {
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+a:visited {
+}
+
+a:hover {
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+a:active {
+}
+
+input::after {
+  content: "TEST";
+}
+
+#search {
+  width: 15em;
+  height: 30px;
+  border: 2px solid #6a1cc3;
+  --border-radius: 0.5em;
+  --font-size: 1.2em;
+  transition: width 0.5s ease-in-out;
+}
+
+#search:focus {
+  --font-size: 1.5em;
+  width: 30%;
+}
