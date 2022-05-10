@@ -1,0 +1,146 @@
+/* GENERAL STYLING */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Verdena", sans-serif;
+  font-size: 20px;
+  --primary-color: #6a1cc3;
+  --secondary-color: #8849cf;
+}
+
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.header {
+  background-color: var(--primary-color);
+  height: 4rem;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-bottom: 3rem;
+}
+
+.header-title {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.header-polygon{
+  margin-top: 1.4rem;
+  width: 400%;
+  height: 300%;
+  fill: var(--secondary-color)
+}
+
+.menu-icon {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+
+.main {
+  padding: 0 2rem;
+}
+
+.main-title {
+  font-family: Montserrat;
+  color: var(--primary-color);
+  margin-bottom: 0px;
+}
+
+.main-subtitle {
+  font-family: Montserrat;
+  font-size: 1rem;
+  color: darkgray;
+  margin-top: 0px;
+}
+
+.svg-arrow polygon {
+  fill: #b80f0f;
+}
+
+.search {
+  width: 20em;
+  height: 30px;
+  border: 2px solid var(--primary-color);
+  transition: width 0.5s ease-in-out;
+}
+
+.search-bar {
+  text-decoration: none;
+  border: 0px;
+  margin-left: .5rem;
+  color: red;
+  font-family: "Source Sans Pro";
+}
+
+.search-icon{
+  margin-left: 2.5rem;
+fill: var(--primary-color;)
+}
+
+.student + .student {
+  margin-top: 1rem;
+}
+
+.test {
+  padding: 0;
+}
+
+.student {
+  border: 2px solid var(--primary-color);
+  display: flex;
+  align-items: center;
+  padding: .1rem;
+  gap: .8rem;
+}
+
+.student-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.student-title {
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 3rem;
+}
+
+.student-name {
+  font-family: "Source Sans Pro";
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.5rem
+  margin: 0px;
+}
+
+a:link {
+  color: var(--primary-color);
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+a:hover {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+#class-name{
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+#time-option{
+  margin-right: 6rem;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
